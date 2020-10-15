@@ -1,0 +1,46 @@
+{
+  "name": "@frosted-bird/use-outside-click",
+  "version": "1.0.0",
+  "description": "Simple React hook for handling outside click event.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "cz": "cz",
+    "lint": "eslint --ext .ts src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mositori/use-outside-click.git"
+  },
+  "keywords": [
+    "react",
+    "hooks"
+  ],
+  "author": "Keisuke Shimotori <k.shimotori0906@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mositori/use-outside-click/issues"
+  },
+  "homepage": "https://github.com/mositori/use-outside-click#readme",
+  "dependencies": {
+    "react": "^16.14.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^7.2.4",
+    "@types/react": "^16.9.52",
+    "cz": "^1.8.2",
+    "esbuild": "^0.7.15",
+    "eslint": "^7.11.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "browser": true,
+      "es6": true
+    }
+  }
+}
